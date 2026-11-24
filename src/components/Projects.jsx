@@ -13,10 +13,10 @@ function ProjectIllustration({ type }) {
           <path d="M115 94l24-41 24 41z" fill="#d6ded0"/><path d="M142 96l28-55 28 55z" fill="#bdcdb7"/><path d="M178 95l15-28 15 28z" fill="#e6ecde"/><path d="M170 83v19m-31-17v17m54-15v15"/>
           <path d="M85 74h150" strokeDasharray="4 5"/>
         </g>}
-        {type === 'code' && <g>
-          <path d="M107 70h32q13 0 13-13V46q0-10 11-10h26m-50 34q13 0 13 13v11q0 10 11 10h26"/>
-          <rect x="73" y="51" width="41" height="38" rx="8" fill="#ece7fa"/><path d="m90 63-7 7 7 7m8-14 7 7-7 7"/>
-          {[36,104].map(y => <g key={y}><rect x="188" y={y-16} width="51" height="32" rx="7" fill="#ece7fa"/><path d={`m204 ${y} 6 6 12-13`} strokeWidth="2.5"/></g>)}
+        {type === 'learning' && <g strokeLinejoin="round">
+          <path d="M122 68v23q38 29 76 0V68" fill="#ded6ef"/>
+          <path d="m96 60 64-29 64 29-64 29z" fill="#ece7fa"/>
+          <path d="m160 60 55 4v28"/><circle cx="215" cy="95" r="3" fill="currentColor"/>
         </g>}
       </svg>
     </div>

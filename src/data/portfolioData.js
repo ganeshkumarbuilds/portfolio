@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Ganesh Kumar Chavala',
-  role: 'Java Full Stack Developer',
+  role: 'Java Full Stack Developer & AI/ML Engineer',
   location: 'Vijayawada, Andhra Pradesh',
   email: 'ganeshkumar.chavala@gmail.com',
   phone: '+91 63035 70495',
@@ -27,12 +27,12 @@ export const projects = [
     tags: ['Python', 'TensorFlow', 'Flask', 'React'],
   },
   {
-    name: 'VeriReview',
-    github: 'https://github.com/ganeshkumarbuilds/verireview.git',
-    demo: 'https://verireview-jet.vercel.app/',
-    type: 'code',
-    summary: 'Turn a requirement into code and inspect the build, test, and review evidence from a four-agent workflow.',
-    tags: ['Spring Boot', 'FastAPI', 'LangGraph', 'Docker'],
+    name: 'CareerQuest',
+    github: 'https://github.com/ganeshkumarbuilds/careerquest-learning-platform',
+    demo: 'https://careerquest-frontend.vercel.app/',
+    type: 'learning',
+    summary: 'Follow a career roadmap, earn badges for daily missions, and practice for interviews with an AI coach powered by Llama.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Groq API'],
   },
 ]
 

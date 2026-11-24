@@ -7,7 +7,7 @@ export default function Hero() {
         <p className="availability"><i aria-hidden="true" /> Open to software engineering roles</p>
         <h1>{profile.name}</h1>
         <p className="role">{profile.role}</p>
-        <p className="summary">I build web applications with Spring Boot, React, and PostgreSQL. My projects span hospital booking, image classification, and automated code review.</p>
+        <p className="summary">I build web applications and machine learning models. My projects help people compare hospitals, detect forest fires in images, and practice for job interviews.</p>
         <div className="actions"><a className="primary" href="#projects">View projects <span aria-hidden="true">↓</span></a><a className="secondary" href={'mailto:' + profile.email}>Email me <span aria-hidden="true">↗</span></a></div>
       </div>
       <aside className="profile-details" aria-label="Profile details">
