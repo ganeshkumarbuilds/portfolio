@@ -3,9 +3,8 @@ import { education, outreach } from '../data/portfolioData'
 export default function Education() {
   return (
     <section id="education" className="border-b border-line py-12">
-      <div className="mx-auto max-w-4xl px-6">
+      <div className="shell">
         <div className="mb-6 flex items-baseline gap-3">
-          <span className="font-mono text-sm text-muted">05</span>
           <h2 className="font-serif text-2xl font-semibold text-ink">Education</h2>
         </div>
 

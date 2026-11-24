@@ -3,9 +3,8 @@ import { skills } from '../data/portfolioData'
 export default function Skills() {
   return (
     <section id="skills" className="border-b border-line py-12">
-      <div className="mx-auto max-w-4xl px-6">
+      <div className="shell">
         <div className="mb-6 flex items-baseline gap-3">
-          <span className="font-mono text-sm text-muted">04</span>
           <h2 className="font-serif text-2xl font-semibold text-ink">Skills</h2>
         </div>
 

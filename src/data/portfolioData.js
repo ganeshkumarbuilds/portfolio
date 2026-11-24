@@ -6,49 +6,32 @@ export const profile = {
   phone: '+91 63035 70495',
   github: 'https://github.com/ganeshkumarbuilds',
   linkedin: 'https://linkedin.com/in/ganeshchavala',
-  tagline:
-    "I build web platforms end to end — Spring Boot and PostgreSQL on the backend, React and TypeScript on the front, with AI woven in where it earns its place. My favorite kind of project is one that can prove it works, not just claim it.",
-  about:
-    "I'm a third-year B.Tech student in AI & Machine Learning, working as a Java Full Stack Developer with hands-on experience across Spring Boot, React, PostgreSQL, and Python-based AI services. My internship and personal projects share a common thread: production-grade features — JWT authentication, RESTful APIs, real deployments — combined with AI integrated where it genuinely helps, not bolted on for show.",
 }
-
-export const pipeline = [
-  { label: 'Plan', desc: 'Scope the requirement, pick the stack, sketch the architecture.', accent: true },
-  { label: 'Build', desc: 'Spring Boot / React implementation, real data, real auth.', accent: false },
-  { label: 'Verify', desc: 'Build passes, tests pass, nothing is taken on faith.', accent: true },
-  { label: 'Ship', desc: 'Deployed and reachable, not just running on localhost.', accent: false },
-]
 
 export const projects = [
   {
     name: 'MediCompare',
     github: 'https://github.com/ganeshkumarbuilds/medicompare-ai.git',
     demo: 'https://client-iota-one-53.vercel.app/',
-    tags: ['Java 21', 'Spring Boot', 'Spring Security', 'Spring AI', 'PostgreSQL', 'React (Vite)', 'Docker'],
-    bullets: [
-      'Full-stack healthcare platform for comparing hospitals with a deterministic 0–100 scoring model and a grounded AI verdict via Spring AI + OpenRouter.',
-      'Real-time booking system with conflict-protected slot availability and an admin approval workflow, secured end to end with JWT.',
-    ],
+    type: 'health',
+    summary: 'Compare hospitals using a transparent scoring model, then book an appointment with conflict-checked time slots.',
+    tags: ['Java', 'Spring Boot', 'PostgreSQL', 'React'],
   },
   {
     name: 'AI Forest Fire Detection & Monitoring',
     github: 'https://github.com/ganeshkumarbuilds/forest-fire-detector.git',
     demo: 'https://frontend-fire-detector.vercel.app/',
-    tags: ['Python', 'TensorFlow', 'Flask', 'React', 'Vite', 'Tailwind CSS'],
-    bullets: [
-      'Fire / no-fire image classifier using MobileNetV2 transfer learning with confidence scoring, served through a Flask REST API.',
-      'Grad-CAM explainability layer plus a live monitoring dashboard with geolocation mapping and automated critical-risk alerts.',
-    ],
+    type: 'forest',
+    summary: 'Detect fire in images with MobileNetV2 and see which regions influenced the prediction on a monitoring dashboard.',
+    tags: ['Python', 'TensorFlow', 'Flask', 'React'],
   },
   {
     name: 'VeriReview',
     github: 'https://github.com/ganeshkumarbuilds/verireview.git',
     demo: 'https://verireview-jet.vercel.app/',
-    tags: ['Java 21', 'Spring Boot', 'PostgreSQL', 'Flyway', 'Python', 'FastAPI', 'LangGraph', 'Docker', 'React + TS'],
-    bullets: [
-      'Turns a plain-English requirement into a built, tested, and reviewed codebase through a four-agent pipeline — Planner, Coding, Verified, Review — where nothing is marked verified without real build/test evidence.',
-      'Spring Boot backend orchestrating a separate Python FastAPI + LangGraph AI microservice, with Docker-sandboxed execution and deterministic static analysis merged against AI-proposed findings.',
-    ],
+    type: 'code',
+    summary: 'Turn a requirement into code and inspect the build, test, and review evidence from a four-agent workflow.',
+    tags: ['Spring Boot', 'FastAPI', 'LangGraph', 'Docker'],
   },
 ]
 
