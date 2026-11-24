@@ -1,6 +1,7 @@
 export const profile = {
   name: 'Ganesh Kumar Chavala',
   role: 'Java Full Stack Developer & AI/ML Engineer',
+  resume: 'https://drive.google.com/file/d/1-naDfBHk8xt3sCJyili8733fKT8iI66d/view?usp=sharing',
   location: 'Vijayawada, Andhra Pradesh',
   email: 'ganeshkumar.chavala@gmail.com',
   phone: '+91 63035 70495',

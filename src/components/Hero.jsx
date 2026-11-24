@@ -12,6 +12,11 @@ export default function Hero() {
       </div>
       <aside className="profile-details" aria-label="Profile details">
         <dl>
+          <dt>Resume</dt>
+          <dd className="social">
+            <a href={profile.resume} target="_blank" rel="noopener noreferrer">View resume <span aria-hidden="true">↗</span></a>
+            <a href={import.meta.env.BASE_URL + 'Ganesh_Kumar_Chavala_Resume.pdf'} download aria-label="Download resume as PDF">Download PDF <span aria-hidden="true">↓</span></a>
+          </dd>
           <dt>Based in</dt><dd>{profile.location}</dd>
           <dt>Education</dt><dd>B.Tech in AI &amp; Machine Learning</dd>
           <dt>Find me on</dt>
