@@ -1,29 +1,34 @@
-import { certifications } from '../data/portfolioData'
+import { certifications, hackathons } from '../data/portfolioData'
+
+function CertificateList({ heading, entries }) {
+  return (
+    <div>
+      <h3 className="mb-3 text-lg font-semibold">{heading}</h3>
+      <ul className="grid gap-3">
+        {entries.map(({ title, org, date, link }) => (
+          <li key={title} className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 rounded border border-line bg-card p-4">
+            <div>
+              <h4 className="text-sm font-semibold text-ink">{title}</h4>
+              <p className="mt-1 text-sm text-muted">{org}</p>
+            </div>
+            <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm">
+              <span>{date}</span>
+              <a className="underline underline-offset-4" href={link} target="_blank" rel="noopener noreferrer" aria-label={'View certificate for ' + title}>View certificate</a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
 
 export default function Certifications() {
   return (
     <section id="certifications" className="border-b border-line py-12">
-      <div className="shell">
-        <div className="mb-6 flex items-baseline gap-3">
-          <h2 className="font-serif text-2xl font-semibold text-ink">Certifications &amp; Hackathons</h2>
-        </div>
-
-        <div className="grid gap-3.5">
-          {certifications.map((c) => (
-            <div
-              key={c.title}
-              className="flex flex-wrap items-start justify-between gap-4 rounded border border-line bg-card p-4"
-            >
-              <div className="min-w-[200px] flex-1">
-                <div className="text-sm font-semibold text-ink">{c.title}</div>
-                <div className="mt-0.5 text-xs text-muted">{c.org}</div>
-              </div>
-              <div className="whitespace-nowrap font-mono text-sm text-steel">
-                {c.date} · <a href={c.link} target="_blank" rel="noopener">Certificate</a>
-              </div>
-            </div>
-          ))}
-        </div>
+      <div className="shell grid gap-6">
+        <h2>Certifications &amp; Hackathons</h2>
+        <CertificateList heading="Course certifications" entries={certifications} />
+        <CertificateList heading="Hackathon participation" entries={hackathons} />
       </div>
     </section>
   )

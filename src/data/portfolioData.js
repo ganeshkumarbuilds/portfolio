@@ -84,16 +84,25 @@ export const certifications = [
     date: 'Jun 2026',
     link: 'https://drive.google.com/file/d/1fuVU-KvRhMIoEqxeC7UOYNM2PtOdyyHh/view?usp=sharing',
   },
+]
+
+export const hackathons = [
   {
-    title: 'InnoGenesis Hackathon 5.0 — Agentic AI Track',
-    org: 'RVR & JC NRI Institute of Technology · National-level hackathon',
-    date: 'Aug 2026',
-    link: 'https://drive.google.com/file/d/1-ZwmEK_WxCyTxhbHYRKOc_KVEaa72BOy/view?usp=drive_link',
+    title: 'Quest-A-Thon at V-TAPP 2026',
+    org: 'VIT-AP University',
+    date: '11–12 Sep 2026',
+    link: 'https://drive.google.com/file/d/1xJmCl92Knapjx12_8O7P_Rc8NO3WBUF7/view?usp=drive_link',
   },
   {
-    title: 'ChatGPT Codex Hackathon — BlocksBlock',
-    org: 'AI-coding-agent focused hackathon',
+    title: 'InnoGenesis Hackathon 5.0 — Track 1, Agentic AI',
+    org: 'School of Computer Studies, Dr. RVR NRI Institute of Technology',
+    date: '7–8 Aug 2026',
+    link: 'https://drive.google.com/file/d/1hwOxB7MWg-07_85DQZqrbiAzi2wMps2U/view?usp=drive_link',
+  },
+  {
+    title: 'ChatGPT Codex Hackathon',
+    org: 'BlockseBlock',
     date: '2026',
-    link: 'https://drive.google.com/file/d/15RYdgoVEM7Nq4gv6YVpk5Y4yi1PUPG-9/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1j0DBSvWHxVxmYYpjPkOvfgqprPFD9OMi/view?usp=drive_link',
   },
 ]
