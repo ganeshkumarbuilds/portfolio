@@ -34,6 +34,22 @@ export const projects = [
     summary: 'Follow a career roadmap, earn badges for daily missions, and practice for interviews with an AI coach powered by Llama.',
     tags: ['React', 'Node.js', 'MongoDB', 'Groq API'],
   },
+  {
+    name: 'ResumeAI',
+    github: 'https://github.com/ganeshkumarbuilds/ai-resume-builder',
+    demo: 'https://ai-resume-builder-jade-phi.vercel.app/',
+    type: 'resume',
+    summary: 'Build a resume, check its ATS score, and compare it with a job description. Generate a cover letter and practice questions for the interview.',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'LLM APIs'],
+  },
+  {
+    name: 'QuickGPT',
+    github: 'https://github.com/ganeshkumarbuilds/QuickGPT',
+    demo: 'https://quick-gpt-gamma-neon.vercel.app/',
+    type: 'chat',
+    summary: 'Chat with an AI assistant, upload images, and sign back in to pick up a conversation from your chat history.',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'OpenAI API'],
+  },
 ]
 
 export const experience = [

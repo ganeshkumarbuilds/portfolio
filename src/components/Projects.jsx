@@ -18,6 +18,15 @@ function ProjectIllustration({ type }) {
           <path d="m96 60 64-29 64 29-64 29z" fill="#ece7fa"/>
           <path d="m160 60 55 4v28"/><circle cx="215" cy="95" r="3" fill="currentColor"/>
         </g>}
+        {type === 'resume' && <g strokeLinecap="round">
+          <rect x="122" y="19" width="76" height="102" rx="5" fill="#fff9f0"/>
+          <circle cx="143" cy="43" r="6"/><path d="M134 57q9-15 18 0m9-15h23m-23 9h16M136 72h48m-48 11h40m-40 11h46m-46 11h30"/>
+        </g>}
+        {type === 'chat' && <g strokeLinejoin="round" strokeLinecap="round">
+          <path d="M152 58h58q8 0 8 8v29q0 8-8 8h-4v12l-17-12h-37q-8 0-8-8V66q0-8 8-8Z" fill="#cbdfe9"/>
+          <path d="M110 28h66q8 0 8 8v34q0 8-8 8h-40l-21 15V78h-5q-8 0-8-8V36q0-8 8-8Z" fill="#f3f9fc"/>
+          <path d="M119 46h47m-47 12h32"/>
+        </g>}
       </svg>
     </div>
   )
