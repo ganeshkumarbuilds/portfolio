@@ -11,7 +11,16 @@ export default function Hero() {
         <div className="actions"><a className="primary" href="#projects">View projects <span aria-hidden="true">↓</span></a><a className="secondary" href={'mailto:' + profile.email}>Email me <span aria-hidden="true">↗</span></a></div>
       </div>
       <aside className="profile-details" aria-label="Profile details">
-        <dl><dt>Based in</dt><dd>{profile.location}</dd><dt>Education</dt><dd>B.Tech in AI &amp; Machine Learning</dd><dt>Find me on</dt><dd className="social"><a href={profile.github}>GitHub ↗</a><a href={profile.linkedin}>LinkedIn ↗</a></dd></dl>
+        <dl>
+          <dt>Based in</dt><dd>{profile.location}</dd>
+          <dt>Education</dt><dd>B.Tech in AI &amp; Machine Learning</dd>
+          <dt>Find me on</dt>
+          <dd className="social">
+            <a href={profile.github}>GitHub ↗</a>
+            <a href={profile.linkedin}>LinkedIn ↗</a>
+            <a href={profile.leetcode}>LeetCode ↗</a>
+          </dd>
+        </dl>
       </aside>
     </header>
   )

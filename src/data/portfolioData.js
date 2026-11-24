@@ -6,6 +6,7 @@ export const profile = {
   phone: '+91 63035 70495',
   github: 'https://github.com/ganeshkumarbuilds',
   linkedin: 'https://linkedin.com/in/ganeshchavala',
+  leetcode: 'https://leetcode.com/u/ZUjDlVDQ1Q/',
 }
 
 export const projects = [
