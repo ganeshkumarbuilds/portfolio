@@ -73,6 +73,24 @@ export const outreach = {
 
 export const certifications = [
   {
+    title: 'Agentic AI Certified Foundations Associate',
+    org: 'Oracle',
+    date: '19 Jul 2026',
+    link: 'https://drive.google.com/file/d/1ZipyjRXneimj3XzBgUqku213zlaI5Qv7/view?usp=drive_link',
+  },
+  {
+    title: 'Prompt Engineering',
+    org: 'Infosys Springboard',
+    date: '19 Jun 2026',
+    link: 'https://drive.google.com/file/d/1J68N-YhPgmNL-qHJ_uRNBbZ550yPeomJ/view?usp=drive_link',
+  },
+  {
+    title: 'AI Skills Passport',
+    org: 'EY and Microsoft',
+    date: '2026',
+    link: 'https://drive.google.com/file/d/1xSpL4wD9xSVG2ZmRsvnZgvAZRlx-6ShH/view?usp=drive_link',
+  },
+  {
     title: 'Industry 4.0 & IIoT (Elite) — NPTEL, IIT Kharagpur',
     org: 'IIoT architecture, smart manufacturing, cyber-physical systems',
     date: 'Apr 2026',
